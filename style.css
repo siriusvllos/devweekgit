@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #70c6c7;
+    background-color: #e2ece9;
 }
 
 .resume-contents {
@@ -21,13 +21,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
+    background-color: #05668d;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4B6982;
+    background-color: #1a4663;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -37,13 +37,13 @@ body {
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #1B2631;
+    border-bottom: 2px solid #e2ece9;
 }
 
 .profile-picture {
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #1B2631;
+    border: 2px solid #e2ece9;
 }
 
 .name {
@@ -57,7 +57,7 @@ body {
 }
 
 .profession {
-    color: #FDB44B;
+    color: #ffbf69;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -66,9 +66,9 @@ body {
     padding-bottom: 1rem;
 }
 
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
+/* .contact-info { border-bottom: 2px solid #284b63; } */
 .left-title {
-    color: #FDB44B;
+    color: #ffbf69;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -87,7 +87,7 @@ body {
     padding: .4rem 0;
     display: flex;
     align-items: center;
-    color: #d6dbdfaf;
+    color: #ffffff;
     letter-spacing: 1px;
     font-size: 18px;
 }
@@ -96,7 +96,7 @@ body {
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #2E86C1;
+    color: #90e0ef;
 }
 
 .skills ul {
@@ -104,7 +104,7 @@ body {
 }
 .skills ul li p {
     padding: .4rem 0;
-    color: #d6dbdfaf;
+    color: #ffffff;
     font-size: 18px;
     letter-spacing: 1px;
     display: flex;
@@ -123,7 +123,7 @@ body {
 
 .referance-profession {
     font-size: 16px;
-    color: #d6dbdfaf;
+    color: #ffffff;
     letter-spacing: 1px;
     /* text-transform: uppercase; */
     padding-bottom: .4rem;
@@ -135,7 +135,7 @@ body {
 }
 
 .right-title {
-    color: #70C6C7;
+    color: #e2ece9;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -172,13 +172,13 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #ffbf69;
     padding-bottom: .4rem;
 }
 
-.exp-time-period,
-.educationp-time-period,
-.certificates-time-period {
+.exp-period,
+.education-period,
+.certificates-period {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
@@ -191,7 +191,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #ffbf69;
     padding-bottom: .4rem;
 }
 
@@ -279,9 +279,9 @@ body {
         font-size: 18px;
     }
 
-    .exp-time-period,
-    .educationp-time-period,
-    .certificates-time-period {
+    .exp-period,
+    .education-period,
+    .certificates-period {
         font-size: 16px;
     }
 
